@@ -12,3 +12,24 @@ else:
     print("Словник порожній")
 
 print("Hello repo")
+
+person = {"name": "John", "age": 30, "city": "New York"}
+print(person)
+
+person2 = dict(name="John", age=30, city="New York")
+print(person2)
+
+name = "John"
+age = 30
+city = "New York"
+person3 = {"name": name, "age": age, "city": city}
+print(person3)
+person4 = dict(name = "John", age = 30, city = "New York")
+print(person4)
+
+person = {
+    "name":"John",
+    "age": 30,
+     "city":"New York",
+     "subjects": ["Math", "Programming", "Physics"]
+}
